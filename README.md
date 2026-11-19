@@ -21,3 +21,8 @@ Anthropic (2026) Claude [Large language model]. Available at: https://claude.ai 
 Google (n.d.) Gson User Guide. Available at: https://github.com/google/gson/blob/main/UserGuide.md (Accessed: 19 November 2026).
 
 Oracle (2021) Files (Java SE 17 & JDK 17). Available at: https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/nio/file/Files.html (Accessed: 19 November 2026).
+## Testing and automation
+
+In NetBeans, right-click the project and choose Test to run the JUnit tests. They cover message arrays, longest-message lookup, ID and recipient searches, deleting by hash, reports, and JSON storage and loading.
+
+GitHub Actions runs `mvn -B test` with JDK 17 when changes are pushed or a pull request is opened against `main` or `master`.
